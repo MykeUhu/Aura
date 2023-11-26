@@ -56,11 +56,12 @@ public:
 	FGameplayTag CombatSocket_Weapon;
 	FGameplayTag CombatSocket_RightHand;
 	FGameplayTag CombatSocket_LeftHand;
+	FGameplayTag CombatSocket_Tail;
 
-	FGameplayTag Monatage_Attack_1;
-	FGameplayTag Monatage_Attack_2;
-	FGameplayTag Monatage_Attack_3;
-	FGameplayTag Monatage_Attack_4;
+	FGameplayTag Montage_Attack_1;
+	FGameplayTag Montage_Attack_2;
+	FGameplayTag Montage_Attack_3;
+	FGameplayTag Montage_Attack_4;
 	
 	TMap<FGameplayTag, FGameplayTag> DamageTypesToResistances;
 
